@@ -1,0 +1,21 @@
+by default kono songkha input nile ta "al" register er moddhe assign hoy
+amra chesta korbo by default e kono kiso na rakhar
+tai eke "bl" regester e rakhbo
+ ah,2= output
+output ba show korte "dl" regester e ante hoy
+
+ax=acculomutor regester
+ax=ah al
+bx= bh bl
+cx=ch cl
+dx=dh dl
+dl= for output
+al=for input
+
+for new line
+-------------
+mov ah,2
+mov dl,10/0Ah
+int 21h
+mov dl,13/0dh
+int 21h
